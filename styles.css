@@ -55,6 +55,7 @@ body {
     text-align: center;
     background-color: white;
     border: 1px solid rgb(180, 179, 179);
+    box-shadow: -5px 5px 14px rgb(175, 168, 168);
     border-radius: 7px;
     box-shadow: 30px;
     width: 150%;
@@ -67,7 +68,7 @@ body {
     margin-bottom: auto;
     width: 94%;
     height: 15%;
-    border: 2px solid rgb(180, 179, 179);
+    border: 1px solid rgb(180, 179, 179);
     border-radius: 9px;
 }
 
@@ -79,7 +80,7 @@ body {
 }
 
 .login-button {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Helvetica, sans-serif;
     font-size: 140%;
     font-weight: 600;
     color: white;
@@ -94,7 +95,7 @@ body {
 .login-box > a {
     text-decoration: none;
     color: rgb(35, 121, 250);
-    font-family:: Helvetica, sans-serif
+    font-family: Helvetica, sans-serif;
 }
 
 .login-box > hr {
@@ -105,11 +106,38 @@ body {
 
 .new-account {
     color: white;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Helvetica, sans-serif;
     font-weight: 600;
+    font-size: 100%;
     background-color: #42b72a;
     width: 50%;
     height: 16%;
     border: 2px solid rgb(180, 179, 179);
     border-radius: 5%;
+}
+
+
+.footer > hr {
+    width: 50%;
+    opacity: 20%;
+    margin-top: 0;
+}
+
+.footer ul {
+    list-style: none;
+}
+
+.languages {
+    width: 50%;
+    display: flex;
+    position: relative;
+    left: 25%;
+}
+
+
+.languages li {
+    color:#737373;
+    text-decoration: underline;
+    font-size: 12px;
+
 }
