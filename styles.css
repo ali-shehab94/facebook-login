@@ -1,0 +1,115 @@
+
+body {
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+}
+
+.login-wrapper {
+    width: 100%;
+    height: 80vh;
+    background-color: #f2f2f2;
+}
+
+.wrapper-2 {
+    width: 100%;
+    height: 80%;
+    padding-top: 8%;
+}
+
+.content-box {
+    height: 100%;
+    width: 55%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-column{
+    width: 70%;
+}
+
+.logo {
+    width: 50%;
+    display: block;
+}
+
+.left-column > p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 160%;
+    margin-top: 0px;
+}
+
+.right-column {
+    width: 65%;
+    position: relative;
+    left: 5%;
+}
+
+.right-column > form {
+    width: 50%;
+    height: 70%;
+}
+
+.login-box {
+    text-align: center;
+    background-color: white;
+    border: 1px solid rgb(180, 179, 179);
+    border-radius: 7px;
+    box-shadow: 30px;
+    width: 150%;
+    height: 80%
+
+}
+
+.input-box {
+    margin-top: 3%;
+    margin-bottom: auto;
+    width: 94%;
+    height: 15%;
+    border: 2px solid rgb(180, 179, 179);
+    border-radius: 9px;
+}
+
+::-webkit-input-placeholder {
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 130%;
+    padding-left: 5%;
+}
+
+.login-button {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 140%;
+    font-weight: 600;
+    color: white;
+    background-color: #1877f2;
+    width: 96%;
+    height: 16%;
+    margin-bottom: 3%;
+
+}
+
+
+.login-box > a {
+    text-decoration: none;
+    color: rgb(35, 121, 250);
+    font-family:: Helvetica, sans-serif
+}
+
+.login-box > hr {
+    opacity: 50%;
+    margin-top: 5%;
+    font-size: 40px;
+}
+
+.new-account {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    background-color: #42b72a;
+    width: 50%;
+    height: 16%;
+    border: 2px solid rgb(180, 179, 179);
+    border-radius: 5%;
+}
